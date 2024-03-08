@@ -1,0 +1,45 @@
+        .tabulka{
+            border-spacing: 1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .tabulka tr td{
+            border: 1px solid black;
+            padding: 0px;
+            max-width: 46px;
+            max-height: 46px;
+        }
+
+        .tabulka tr:nth-child(odd) td:nth-child(even){
+            background-color: rgb(61, 24, 24);
+        }
+
+        .tabulka tr:nth-child(even) td:nth-child(odd){
+            background-color: rgb(61, 24, 24);
+        }
+
+        .turn{
+            position: absolute; transform: translate(-50%, -50%); left: 50%; top: 22%;
+        }
+
+        .dbginfo{
+            position: absolute;
+            left: 20%;
+            top: 30%;
+            width: 15vw;
+            height: 40vh;
+            border: 1px solid rgb(83, 83, 83);
+        }
+
+        .gametable{
+            position: absolute;
+            left: 65%;
+            top: 30%;
+            width: 10vw;
+            height: 30vh;
+            border: 1px solid rgb(83,83,83);
+            text-align: center;
+        }
